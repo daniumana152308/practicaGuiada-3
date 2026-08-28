@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cierre y reflexión</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+  
+
+<body>
+
+    <header>
+        <a href="index.html">
+→Return to the application</a>
+    </header>
+
+  
+
+
+<h1>Cierre y reflexión</h1>
+
+<hr>
+
+<h2>¿Qué fue lo más difícil?</h2>
+<p>
+    Lo más difícil del proyecto fue cambiar algunas cosas en el app.js que no estaban bien.
+    Por ejemplo, al revisar el código, encontré que algunas variables no tenían el mismo nombre
+    con el que habían sido declaradas. Esto dificultó identificar por qué la calculadora no
+    funcionaba correctamente.
+</p>
+
+<hr>
+
+<h2>¿Qué error encontró y cómo lo resolvió?</h2>
+<p>
+    El error principal que encontré estaba en la función calculateAge().
+    Las variables habían sido declaradas como birthdayElement y
+    resultElement, pero posteriormente se utilizaban como
+    birthdayEl y resultEl. Esto provocaba un error porque esas
+    variables no estaban definidas. Para resolverlo, cambié birthdayEl por
+    birthdayElement y resultEl por resultElement,
+    haciendo que los nombres coincidieran con las variables declaradas al inicio del código.
+</p>
+
+<hr>
+
+<p>
+    También modifique tanto el idioma como el styles.css para agregar un poco más de personalización, además de poner el . antes del container ya que es una clase y tiene que ser .container.
+</p>
+
+<hr>
+
+<h2>¿Qué parte del proyecto podría reutilizar en otra aplicación?</h2>
+<p>
+    La parte del proyecto que podría reutilizar en otra aplicación es la función
+    getAge(), ya que permite calcular la diferencia de edad a partir de una
+    fecha ingresada por el usuario. La estructura utilizada para obtener elementos mediante
+    document.getElementById() y responder al evento click también
+    puede utilizarse en otros formularios y aplicaciones web.
+</p>
+
+<hr>
+
+<h2>Captura del resultado final</h2>
+
+ <img src="../img/capture.png" alt="Captura del resultado final" >
+
+
+</body>
+</html>
